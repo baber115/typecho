@@ -8,4 +8,4 @@ CREATE TABLE `%dbname%`
     `parent` int(10) unsigned default '0',
     PRIMARY KEY (`tid`),
     KEY `name` (`name`)
-) ENGINE=MyISAM DEFAULT CHARSET =%charset%;
+) ENGINE=%engine% DEFAULT CHARSET =%charset%;
