@@ -26,9 +26,5 @@
 config.rb
 prepros.config
 config.inc.*
-usr/*.db
-!usr/plugins/HelloWorld
-!usr/themes/default
-!usr/themes/classic-22
 node_modules/
 /tools/tmp/
