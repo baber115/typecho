@@ -3,4 +3,4 @@ CREATE TABLE `%dbname%`
     `coid` int(10) unsigned NOT NULL comment '评论的id',
     `tid`  int(10) unsigned NOT NULL comment 'tag id',
     PRIMARY KEY (`coid`, `tid`)
-) ENGINE=%engine%  DEFAULT CHARSET =%charset%;
+) ENGINE=InnoDB  DEFAULT CHARSET =%charset%;

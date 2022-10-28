@@ -6,4 +6,4 @@ CREATE TABLE `%dbname%`
     `time` bigint(20) DEFAULT NULL,
     `type` char(10),
     PRIMARY KEY (`key`)
-) ENGINE=%engine%  DEFAULT CHARSET =%charset%;
+) ENGINE=InnoDB  DEFAULT CHARSET =%charset%;
